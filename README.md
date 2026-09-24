@@ -20,54 +20,71 @@ A Streamlit application that calculates road distances between source and destin
 
 ## Installation
 
-Clone the repository:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/TanyaChauhan15/pincode-distance-calculator.git
 cd pincode-distance-calculator
+```
 
-Install the required dependencies:
+### 2. Install Dependencies
 
+```bash
 pip install -r requirements.txt
-Run
+```
+
+### 3. Run the Application
+
+```bash
 streamlit run app.py
+```
 
-The application will open at http://localhost:8501.
+The application will open at:
 
-Input Format
+```
+http://localhost:8501
+```
 
-Upload an Excel file containing two sheets:
+## Input Format
 
-From Pin Details
+Upload an Excel file containing two sheets.
 
-Required columns:
-
-state
-city
-postal_code
-To Pin Details
+### From Pin Details
 
 Required columns:
 
-state
-city
-postal_code
+- `state`
+- `city`
+- `postal_code`
+
+### To Pin Details
+
+Required columns:
+
+- `state`
+- `city`
+- `postal_code`
 
 Both sheets should contain the same number of rows. Each row represents one source-destination pair.
 
-Output
+## Output
 
 The application provides:
 
-Road distance in kilometers
-CSV download
-Excel download
-Sample Input
+- Road distance in kilometers
+- CSV download
+- Excel download
 
-A sample Excel file is included as sample.xlsx.
+## Sample Input
 
-Author
+A sample Excel file is included as:
 
-Tanya Chauhan
+```
+sample.xlsx
+```
 
-GitHub: https://github.com/TanyaChauhan15
+## Author
+
+**Tanya Chauhan**
+
+GitHub: [https://github.com/TanyaChauhan15](https://github.com/TanyaChauhan15)
